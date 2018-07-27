@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Crystal Collector</title>
+</head>
+<body>
+        
+    <header>
+            <h1>Crystal Collector!</h1>
+    </header>
+    <section>
+        <article>
+            <p>You will be given a random number at the start of the game</p>
+            <p>There are four crystal below. By clicking on a crystal you will
+             add specific amount of points to your total score.</p>
+             <p>You win the game by matching your total score to random number,you lose the game
+                if your total score goes above the random number.</p>
+          <p>The value of each crystal in hidden from you until you click on it.</p>
+          <p>Each time when the game starts, 
+              the game will change the value of the crystal.</p>
+        </article>
+        <div class = "row" style = "margin:10px 0px 5px 10px;">
+            <div class = "col-md-4" style = "width:200px; height:80px; padding:0px; background-color:green;margin:0px 5px 0px 0px">
+                   
+                    <span id ="number-to-guess"></span>
+            </div>
+           <div class = "col-md-4"  style = "width:80px ;height:80px; padding:0px; background-color: aqua; margin:0px 5px 0px 10px">
+            <p id = "message"></p>
+            <p id = "win">Wins:</p>
+               <p id = "loss">Losses:</p>
+           </div></div>
+           <div class = "crystals">
+                </div>
+           <div>
+               <p class = "score">Your total score is </p>
+           </div>
+           <div class = "userguess">
+               <p id = "result">0</p>
+           </div>
+            
+    </section>
+       
+  
+        <script src="assets/javascript/game.js"></script>
+    
+</body>
+</html>

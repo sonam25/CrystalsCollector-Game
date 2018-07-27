@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    position: fixed;
+    top:0;
+    bottom:0;
+   background-image:url("../images/congruent_pentagon.png");
+     margin:0;
+   padding:0;
+   height:100%;
+   width:100%
+}
+header{
+    background-color: orange;
+    color:white;
+    height:70px ;
+    width: 300px;
+    margin: 5px 0px 5px 10px;
+}
+h1
+{
+    text-align: center;
+    padding-top:10px;
+}
+article{
+   background-color: bisque;
+   color: green;
+    width:400px;
+    height:250px;
+    margin: 10px 0px 5px 10px;
+}
+.score{
+    background-color:lightseagreen;
+    color: white;
+    height: 20px;
+    width: 200px;
+    margin: 10px 0px 5px 10px;
+}
+.userguess{
+    background-color:lightseagreen;
+    color: white;
+    height: 80px;
+    width: 200px;
+    margin: 10px 0px 5px 10px;
+}
+
+#number-to-guess{
+color:white;
+font-size: 40px;
+}
+
+.crystals{
+    display:flex; 
+    align :center;
+}
+.crystal{
+    
+    height:60px;
+    width: 60px;
+    margin: 5px 0px 5px 10px;
+}
+img{
+    height:40px;
+    width: 40px;
+}
+ #result{
+ font-size:40px;
+ }
