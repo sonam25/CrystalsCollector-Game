@@ -34,9 +34,10 @@ article{
 .score{
     background-color:lightseagreen;
     color: white;
-    height: 20px;
+    height: 30px;
     width: 200px;
     margin: 10px 0px 5px 10px;
+    font-size:20px;
 }
 .userguess{
     background-color:lightseagreen;
@@ -53,7 +54,7 @@ font-size: 40px;
 
 .crystals{
     display:flex; 
-    align :center;
+    align: center;
 }
 .crystal{
     
